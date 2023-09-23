@@ -1,10 +1,10 @@
 * {
-    /* border: red solid 1px; */
+     border: red solid 1px; 
 }
 
 :root {
     --background-color: rgb(153, 150, 150);
-    --text-color: fuchsia;
+    --text-color: rgb(0, 0, 0);
     --paratext: white;
 }
 
@@ -32,21 +32,38 @@ body {
     margin: 0 100px 0 100px;
 }
 
-.row-one {
+main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.row-one {
+    display: flex;
     justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .row-two {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    display: grid;
+    width: 30%;
+    padding: 10px;
+    border: dashed var(--paratext) 2px;
 }
 
 .title-card {
+    display: flex;
+    flex-wrap: wrap;
     border: solid 1px var(--paratext);
     border-radius: 3px;
     padding: 5px;
@@ -61,8 +78,17 @@ body {
     color: var(--text-color);
 }
 
-article {
-    display: block;
-    border: dashed var(--paratext) 2px;
-    padding: 10px;
+.highlight {
+    display: grid;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(rgba(136, 62, 138, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+    font-family: monospace;
+    color: white;
 }
+
+.highlight p{
+    width: 100%;
+}
+
