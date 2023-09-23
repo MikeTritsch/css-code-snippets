@@ -1,10 +1,10 @@
 * {
-     border: red solid 1px; 
+     /* border: red solid 1px; */
 }
 
 :root {
-    --background-color: rgb(153, 150, 150);
-    --text-color: rgb(0, 0, 0);
+    --background-color: rgb(68, 66, 66);
+    --text-color: fuchsia;
     --paratext: white;
 }
 
@@ -59,11 +59,13 @@ main {
     width: 30%;
     padding: 10px;
     border: dashed var(--paratext) 2px;
+    border-radius: 2px;
 }
 
 .title-card {
     display: flex;
     flex-wrap: wrap;
+    width: 75%;
     border: solid 1px var(--paratext);
     border-radius: 3px;
     padding: 5px;
@@ -78,17 +80,32 @@ main {
     color: var(--text-color);
 }
 
-.highlight {
+.code {
     display: grid;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    border-radius: 5px;
     background-image: linear-gradient(rgba(136, 62, 138, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
     font-family: monospace;
     color: white;
 }
 
-.highlight p{
+.code p{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    padding-left: 10px;
+    margin: 3px;
+}
+
+.code .code-indent {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    margin: 3px 30px;
+    line-height: 1.5;
 }
 
