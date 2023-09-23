@@ -3,96 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Snippet Cheatsheet</title>
     <link rel="stylesheet" href="./assets/style/index.css">
 </head>
-<body>
-    <header>
-        <h1>CSS Code Snippet Cheatsheet</h1>
-    </header>
 
-    <section>
-        <p>dfjfewjdwdwdjq</p>
-    </section>
+<body>
+    <div class="header">
+        <header>
+            <h1>CSS Snippet Cheatsheet</h1>
+        </header>
+    </div>
+
+    <div class="paratop">
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam arcu nec sodales cursus. Sed luctus nec libero eget mollis.
+            </p>
+        </section>
+    </div>
 
     <main>
-        <section>
-            <div>
+        <div class="card">
+            <section>
+                <h2>Flexbox Row</h2>
+                <div class="definition">
+                    <p>Use these three properties to create a Flexbox row layout.</p>
+                </div>
+                <div class="highlight">
+                    <pre>
+                        .row {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                        }
+                    </pre>
+                </div>
+            </section>
+        </div>
 
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-        </section>
+        <div class="card">
+            <section>
+                <h2>Flexbox Column</h2>
+                <div class="definition">
+                    <p>Use this to create a Flexbox column layout.</p>
+                </div>
+                <div class="highlight">
+                    <pre>
+                        .column {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    </pre>
+                </div>
+            </section>
+        </div>
 
-        <section>
-            <div>
+        <div class="card">
+            <section>
+                <h2>CSS Grid Layout</h2>
+                <div class="definition">
+                    <p>Build a 12-column layout using CSS Grid.</p>
+                </div>
+                <div class="highlight">
+                    <pre>
+                        .grid {
+                            display: grid;
+                            width: 100%;
+                            grid-template-columns;
+                            repeat(12, 1fr);
+                        }
+                    </pre>
+                </div>
+            </section>
+        </div>
 
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-            <div>
-                
-            </div>
-        </section>
+        <div class="card">
+            <section>
+                <h2>Linear Gradients</h2>
+                <div class="definition">
+                    <p>This will create a background linear gradient from top to bottom.</p>
+                </div>
+                <div class="highlight">
+                    <pre>
+                        .linear-gradient-background { 
+                            background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+                        }
+                    </pre>
+                </div>
+            </section>
+        </div>
+
+        <div class="card">
+            <section>
+                <h2>Box Transition Glow</h2>
+                <div class="definition">
+                    <p>Use transition and box shadows to glow on hover.</p>
+                </div>
+                <div class="highlight">
+                    <pre>
+                        .code-card .card-header {
+                            border-radius: 8px;
+                            transition: all 0.5s ease-in-out:
+                        }
+                    </pre>
+                </div>
+            </section>
+        </div>
+
+        <div class="card">
+            <section>
+            <h2>Overlay Card with Title</h2>
+                <div class="definition">
+                    <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                </div>
+                <div class="highlight">
+                    <pre>
+                        .row { 
+                            display: flex; 
+                            flex-direction: row; 
+                            flex-wrap: wrap; 
+                        }
+                    </pre>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
