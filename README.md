@@ -27,7 +27,7 @@ Thanks to media queries and flexbox, the page is available to view on mobile and
 Hovering over the individual cards will cause a glow effect on all devices. (For mobile, tab the code cards.)
 
 Desktop:
-![alt text](./assets/images/Desktop%20use.mov)
+![alt text](./assets/images/Desktop-glow.png)
 
 Mobile:
 ![alt text](./assets/images/mobile-use.PNG)
