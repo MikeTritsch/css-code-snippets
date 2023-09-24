@@ -133,10 +133,11 @@ footer {
     box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES - UNFINISHED AS OF 9/23/23 - Need Tablet View */
+
 @media screen and (max-width: 992px) {
     .card {
-        flex-basis: 40%;
+        flex-basis: 30%;
     }
 }
 
