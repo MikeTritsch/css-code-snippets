@@ -1,11 +1,8 @@
 # module-2-mini-project
 
-## UNFINISHED AS OF 9/23/23 - USING FULLSTACK BLOG TEMPLATE
-
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
+Welcome to the CSS Snippet Cheatsheet
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?

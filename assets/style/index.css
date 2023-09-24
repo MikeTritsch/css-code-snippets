@@ -5,8 +5,8 @@
 
 /* VARIABLES */
 :root {
-    --background-color: rgb(53, 58, 70);
-    --text-color: rgb(247, 107, 247);
+    --background-color: #002244;
+    --text-color: #FA4616;
     --paratext: white;
 }
 
@@ -93,7 +93,7 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
-    background-image: linear-gradient(rgba(136, 62, 138, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+    background-image: linear-gradient(rgba(0, 38, 255, 0.3) 0%, rgba(250, 70, 22, 0.6) 100%);
     color: white;
 }
 
@@ -109,7 +109,8 @@ main {
 }
 
 pre::selection {
-    background-color: turquoise;
+    background-color: rgb(250, 70, 22);
+    color: black;
 }
 
 footer {
@@ -130,10 +131,10 @@ footer {
 
 .card:hover,
 .card:hover .title-card {
-    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+    box-shadow: inset 0px 0px 8px rgba(250, 70, 22, 1), 0 0 15px rgba(250, 70, 22, 1);
 }
 
-/* MEDIA QUERIES - UNFINISHED AS OF 9/23/23 - Need Tablet View */
+/* MEDIA QUERIES - UNFINISHED - Need Tablet View */
 
 @media screen and (max-width: 992px) {
     .card {
@@ -144,7 +145,7 @@ footer {
 @media screen and (max-width: 768px) {
     .card {
         flex-basis: 100%;
-        margin: 20px;
+        margin: 1em 0;
     }
 }
 
