@@ -97,9 +97,15 @@ main {
     color: white;
 }
 
-.code p{
+pre::selection {
+    background-color: turquoise;
+}
+
+.code pre{
     display: flex;
     flex-wrap: wrap;
+    white-space: pre-wrap;
+    user-select: all;
     width: 100%;
     padding-left: 10px;
     margin: 3px;
@@ -124,4 +130,6 @@ main {
 .card:hover .title-card {
     box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
 }
+
+
 
