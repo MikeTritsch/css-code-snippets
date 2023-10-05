@@ -1,4 +1,4 @@
-# module-2-mini-project
+# CSS Code Snippets
 
 ## Description
 
